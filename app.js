@@ -7,7 +7,7 @@ const reader = readline.createInterface({
 
 reader.question("Tap a sequece: ", (resp) => {
     const validation = isValid(resp);
-    console.log("Your sequence is", validation ? "valid" : "invalid")
+    console.log("Your sequence is", validation ? "valid!" : "invalid!")
     reader.close();
 });
 
